@@ -17,19 +17,8 @@ window.addEventListener('load', () => {
         }
 
         public async init(): Promise<void> {
-            await Assets.init({
-                basePath: 'assets',
-            });
-
-            await Assets.load([
-                'giraffe-round.png',
-                'giraffe-square.png',
-                'panda-round.png',
-                'panda-square.png',
-                'penguin-round.png',
-                'penguin-square.png',
-                'pixel.png',
-            ]);
+            await Assets.init({ basePath: 'assets' });
+            await Assets.load(['pixel.png']);
         }
     }
 
