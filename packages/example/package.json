@@ -10,7 +10,7 @@
     "scripts": {
         "lint": "eslint 'src/**/*.{js,ts,ts}'",
         "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
-        "start": "npm run clean && rollup --config ./rollup-config.mjs -w"
+        "start": "npm run clean && rollup --config ./rollup-config.mjs -w --sourcemap"
     },
     "dependencies": {},
     "devDependencies": {

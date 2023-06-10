@@ -5,8 +5,6 @@
     "exclude": [],
 
     "compilerOptions": {
-        "noEmitOnError": false,
-
         "strict": false,
 
         "module": "ESNext",

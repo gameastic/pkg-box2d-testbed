@@ -1,16 +1,5 @@
-import {
-    DrawAABBs,
-    DrawCenterOfMasses,
-    DrawJoints,
-    DrawPairs,
-    DrawShapes,
-    b2Color,
-    b2Transform,
-    type RGBA,
-    type XY,
-    type b2Draw,
-    type b2World,
-} from '@box2d/core';
+import type { RGBA, XY, b2Draw, b2World } from '@box2d/core';
+import { DrawAABBs, DrawCenterOfMasses, DrawJoints, DrawPairs, DrawShapes, b2Color, b2Transform } from '@box2d/core';
 import type { Graphics } from 'pixi.js';
 import type { IDebugDrawOptions } from './types';
 import { addVector, colorToString, nope, rotateVector } from './utils';

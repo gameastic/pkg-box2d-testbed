@@ -37,9 +37,5 @@
         "build": "npm run clean && rollup --config ./rollup-config.mjs"
     },
     "dependencies": {},
-    "devDependencies": {
-        "@box2d/core": "^0.10.0",
-        "@box2d/particles": "^0.10.0",
-        "pixi.js": "^7.2.4"
-    }
+    "devDependencies": {}
 }

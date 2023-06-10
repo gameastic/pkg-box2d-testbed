@@ -1,6 +1,5 @@
 import terser from '@rollup/plugin-terser';
-import dts from 'rollup-plugin-dts';
-import esbuild from 'rollup-plugin-esbuild';
+import typescript from '@rollup/plugin-typescript';
 
 export default [
     {
@@ -16,13 +15,7 @@ export default [
 
         plugins: [
             //
-            esbuild(),
+            typescript(),
         ],
-    },
-
-    {
-        input: 'src/index.ts',
-        plugins: [dts({})],
-        output: [{ file: 'dist/index.d.ts', format: 'es' }],
     },
 ];
