@@ -1,3 +1,4 @@
-import { EXPORT_FROM_LIB1 } from '@gameastic/box2d-testbed';
+import { Box2dDraw } from '@gameastic/box2d-testbed';
 
-window.console.warn(EXPORT_FROM_LIB1);
+const draw = new Box2dDraw();
+window.console.warn(draw);

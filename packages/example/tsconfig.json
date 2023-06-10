@@ -9,8 +9,8 @@
 
         "strict": false,
 
-        "module": "es6",
-        "target": "es5",
+        "module": "ESNext",
+        "target": "ESNext",
 
         "baseUrl": ".",
         "outDir": "./dist",

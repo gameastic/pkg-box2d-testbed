@@ -1,3 +1,4 @@
+import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 import copy from 'rollup-plugin-copy';
 import livereload from 'rollup-plugin-livereload';
@@ -9,11 +10,12 @@ export default [
 
         output: [
             //
-            { dir: 'dist', format: 'es' },
+            { dir: 'dist', format: 'esm' },
         ],
 
         plugins: [
             //
+            commonjs(),
             resolve(),
             serve({ port: 8080 }),
             livereload(),

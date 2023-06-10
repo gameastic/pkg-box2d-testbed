@@ -2,10 +2,10 @@
 .*
 ~*
 !.npmrc
-!**/.eslintrc.*
-!**/.prettierrc.*
-!**/.eslintignore
-!**/.prettierignore
+!**/.eslintrc*
+!**/.prettierrc*
+!**/.eslintignore*
+!**/.prettierignore*
 !.github
 !.gitkeep
 !.changeset
