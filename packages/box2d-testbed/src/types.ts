@@ -1,4 +1,4 @@
-export interface IDebugDrawOptions {
+export interface ITestbedOptions {
     shapes?: boolean;
     pairs?: boolean;
     joints?: boolean;
