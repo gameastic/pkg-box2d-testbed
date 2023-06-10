@@ -1,11 +1,5 @@
-import { b2Transform } from '@box2d/core';
-import { Box2dDraw } from '@gameastic/box2d-testbed';
-import { Application, Assets, Graphics } from 'pixi.js';
+import { Application, Assets } from 'pixi.js';
 import { Stage } from './stage';
-
-void b2Transform;
-void Box2dDraw;
-void Graphics;
 
 window.addEventListener('load', () => {
     class Game extends Application {
