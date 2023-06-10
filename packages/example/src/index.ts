@@ -9,11 +9,16 @@ void Graphics;
 
 window.addEventListener('load', () => {
     class Game extends Application {
+        public declare stage: Stage;
+
         public constructor() {
             super({ resizeTo: window, backgroundColor: 0x000, hello: true });
 
             void this.init().then(() => {
                 this.stage = new Stage();
+                this.ticker.add(() => {
+                    this.stage.update();
+                });
             });
         }
 

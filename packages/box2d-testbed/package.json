@@ -5,7 +5,7 @@
     "source": "src/index.ts",
     "main": "dist/index.js",
     "author": "https://github.com/gameastic",
-    "description": "Box2D physics debugger for PixiJS",
+    "description": "Box2D physics debugger for PixiJS using Pixi.Graphics",
     "private": false,
     "files": [
         "dist/**/*"
