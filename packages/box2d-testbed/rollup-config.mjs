@@ -12,15 +12,15 @@ export default [
             { file: 'dist/index.min.js', format: 'es', plugins: [terser()] },
         ],
 
-        plugins: [esbuild()],
+        plugins: [
+            //
+            esbuild(),
+        ],
     },
 
     {
         input: 'src/index.ts',
         plugins: [dts({})],
-        output: [
-            //
-            { file: 'dist/index.d.ts', format: 'es' },
-        ],
+        output: [{ file: 'dist/index.d.ts', format: 'es' }],
     },
 ];

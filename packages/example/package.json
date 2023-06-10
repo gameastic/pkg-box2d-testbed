@@ -8,11 +8,9 @@
     "description": "Example for Box2D Testbed",
     "private": true,
     "scripts": {
-        "start": "rollup --config ./rollup-config.mjs -w",
-        "start4": "tsc -w && npx live-server . --ignorePattern=.*.ts",
-        "start1": "tsc -w",
-        "start3": "webpack-dev-server --mode development",
-        "start2": "npx webpack serve --config webpack.config.js"
+        "lint": "eslint 'src/**/*.{js,ts,ts}'",
+        "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
+        "start": "npm run clean && rollup --config ./rollup-config.mjs -w"
     },
     "dependencies": {},
     "devDependencies": {
