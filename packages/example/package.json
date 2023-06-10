@@ -1,0 +1,21 @@
+{
+    "name": "example",
+    "version": "1.0.0",
+    "license": "MIT",
+    "source": "index.html",
+    "main": "dist/index.html",
+    "author": "https://github.com/gameastic",
+    "description": "Example for Box2D Testbed",
+    "private": true,
+    "scripts": {
+        "start": "rollup --config ./rollup-config.mjs -w",
+        "start4": "tsc -w && npx live-server . --ignorePattern=.*.ts",
+        "start1": "tsc -w",
+        "start3": "webpack-dev-server --mode development",
+        "start2": "npx webpack serve --config webpack.config.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@gameastic/box2d-testbed": "*"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "extends": "../../tsconfig.json",
+
+    "include": ["src"],
+    "exclude": [],
+
+    "compilerOptions": {
+        "noEmitOnError": false,
+
+        "strict": false,
+
+        "module": "es6",
+        "target": "es5",
+
+        "baseUrl": ".",
+        "outDir": "./dist",
+
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+
+        "allowJs": true,
+
+        "declaration": true,
+        "removeComments": true
+    }
+}

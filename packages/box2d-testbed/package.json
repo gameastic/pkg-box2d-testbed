@@ -1,0 +1,41 @@
+{
+    "name": "@gameastic/box2d-testbed",
+    "version": "1.0.0",
+    "license": "MIT",
+    "source": "src/index.ts",
+    "main": "dist/index.js",
+    "author": "https://github.com/gameastic",
+    "description": "Box2D physics debugger for PixiJS",
+    "private": false,
+    "files": [
+        "dist/**/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:gameastic/box2d-testbed.git"
+    },
+    "bugs": {
+        "url": "https://github.com/gameastic/box2d-testbed/issues"
+    },
+    "keywords": [
+        "box2d",
+        "box2d-ts",
+        "box2d-debug",
+        "box2d-debugger",
+        "box2d-testbed",
+        "box2d-pixi",
+        "box2d-pixijs",
+        "box2dts-pixijs",
+        "box2dts-graphics",
+        "box2d-phys-debug"
+    ],
+    "homepage": "https://github.com/gameastic/box2d-testbed#readme",
+    "scripts": {
+        "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
+        "test": "jest --config jestconfig.json",
+        "lint": "eslint 'src/**/*.{js,ts,ts}'",
+        "build": "rimraf dist && rollup --config ./rollup-config.mjs"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
