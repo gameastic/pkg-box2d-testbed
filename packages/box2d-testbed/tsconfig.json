@@ -6,6 +6,7 @@
 
     "compilerOptions": {
         "strict": true,
+        "composite": true,
 
         "baseUrl": ".",
         "rootDir": "./src",
@@ -18,8 +19,7 @@
         "esModuleInterop": true,
 
         "allowJs": true,
-
         "declaration": true,
-        "removeComments": true
+        "sourceMap": true
     }
 }
