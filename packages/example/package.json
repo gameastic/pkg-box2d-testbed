@@ -21,7 +21,7 @@
     ],
     "dependencies": {},
     "devDependencies": {
-        "@gameastic/planck-testbed": "*",
+        "@gameastic/box2d-testbed": "*",
         "copy-files-from-to": "^3.9.0",
         "parcel": "^2.9.2"
     }
